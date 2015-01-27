@@ -11,7 +11,7 @@ relative_permalinks: true
 # Setup
 title:               'Thach Mai'
 tagline:             '// TODO: a witty tagline'
-description:         'Thach Mai personal blog'
+description:         'A programmer by trade and passion'
 url:                 http://www.thachmai.info
 baseurl:             /
 paginate:            5
