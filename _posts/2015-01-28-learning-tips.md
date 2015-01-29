@@ -44,10 +44,27 @@ I do want to touch on item #4 of procrastination: **the belief**. The procrastin
 There are a few simple but effective techniques to help you combat procrastination:
 
 * Know that the pain you experience when starting something is only temporary. In fact, as you get into the flow of learning something new, the whole process can become quite enjoyable.
-* Do not focus on the product, or the outcome, of a task. Focus instead on the process. Recently I decided to finally jump in and study Haskell. The product itself, the [Haskell programming language](https://wiki.haskell.org/Haskell) was quite daunting and it took me a long time to start. However, once I focused instead on reading [Learn Yourself A Haskell](http://learnyouahaskell.com/) a chapter at a time, I finally managed to get moving ahead.
+* Do not focus on the product, or the outcome, of a task. The product of a task is what triggers the pain of procrastination. Focus instead on the process, or how to get there.
 * The [Pomodoro technique](http://en.wikipedia.org/wiki/Pomodoro_Technique) is a helpful method to get you started. The core idea is to fix a 25 minutes block of time exclusively for a task. You *must* stop after the 25 minutes interval and give yourself a break or some other reward.
 
 
 
 ## Memory
-*Coming soon...*
+
+There are two main types of memory: working memory and long term memory. You can think of working memory as slots that store things you can recall immediately. We only have around four of these slots in our brain. Long term memory is similar to a warehouse of your brain where you store past events, concepts and skills. Unlike working memory, the capacity of long term memory is immense; there doesn't seem to be a fixed limit for our long term memory.
+
+The tricky part about long term memory is that we do not get to choose what goes into your long term memory. In fact, I see learning as little more than an elaborate process to conceptualize and store some useful information in the long term memory.
+
+Your memory, just like your brain, is a living thing. New information in your memory must be used and recalled or it will fade away. Old information does not stay still, but it's being continuously re-evaluated and even possibly [rewritten](http://www.northwestern.edu/newscenter/stories/2014/02/how-your-memory-rewrites-the-past.html) by your brain!
+
+In order to effectively store the things you learn into long term memory, you can try some of the following techniques:
+
+* **Recalling**: the simple fact of trying to retrieve the information you have learned could increase the chance of ingraining it in your memory.
+* **Spaced repetition**: spreading the learning activity over the longer period of time creates more concrete chunks of memory than intensive cramming. Cramming might work to store a lot of information in a short time, but that memory is in no guarantee to persist.
+* **Sleep**: when you sleep, your brain organizes and stores new information into long term memory. Sleep also cleans away the toxin produced by brain activities to restore the brain to a fresh state.
+* **Deliberate practice**: for a particularly slippery subject, you could put extra effort in it by doing extra exercises, researching more information to read on the subject, discussing the subject with others. The extra effort will give your brain a better chance to digest and record the information.
+* **Interleaving**: instead of studying one subject sequentially, [mixing things up](http://j2jenkins.com/2013/04/29/interleaved-practice-a-secret-enhanced-learning-technique/) could in fact be more productive!
+
+### Learning to learn
+
+Learning is hard; *effective* learning is probably the most rewarding skill you might have in your repertoire. I might already have had some vague notions about the concepts and techniques before taking the Coursera [course](https://class.coursera.org/learning-003). But having them presented in such a clear and concise way really helped to put everything into perspective. Many thanks to Dr. Barbara Oakley and Dr. Terrence Sejnowski for putting up this small but useful missing manual for the brain.
