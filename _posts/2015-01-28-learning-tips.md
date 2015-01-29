@@ -24,9 +24,9 @@ The trick to better problem solving is a good balance between the two modes of t
 
 Everyone procrastinates to a certain degrees. There are always unpleasant tasks that you don't want to start, like taking out the trash or studying a particular subject. There are things you know you *should* do, but lack the courage to begin. 
 
-Procrastination is a natural defense mechanism of your brain against unpleasant activities. However, if left unchecked, procrastination can negatively impact your life in many ways. Understanding and knowing how to deal with procrastination are, for me, one of the most important skills a person can have.
+Procrastination is a natural defense mechanism of your brain against unpleasant activities. If left unchecked, however, procrastination can negatively impact your life in many ways. Understanding and knowing how to deal with procrastination is an essential skill for more effective learning.
 
-The mechanism behind procrastination is surprisingly simple. The area that triggers procrastination is the same brain region that detects pain. In order to avoid that painful feeling of starting something unpleasant or difficult, your brain comes up with a simple tactic: do something easier, and get an immediate reward out of it. From another angle of view, procrastination shares many [traits](https://www.psychologytoday.com/basics/addiction) with [addiction](http://en.wikipedia.org/wiki/Addiction).
+The mechanism behind procrastination is surprisingly simple. The area that triggers procrastination is the same brain region that detects pain. In order to avoid that painful feeling of starting a difficult task, your brain comes up with a simple tactic: *do something easier, and get an immediate reward out of it*. From this point of view, procrastination shares many [traits](https://www.psychologytoday.com/basics/addiction) with [addiction](http://en.wikipedia.org/wiki/Addiction).
 
 There are four components to procrastination:
 
@@ -37,7 +37,7 @@ There are four components to procrastination:
 
 If you wish to know more about these components, I invite you to view the [lectures](https://class.coursera.org/learning-003/lecture/51) by Dr. Oakley who did an excellent job at explaining the concept in an easy-to-follow manner.
 
-I do want to touch on item #4 of procrastination: **the belief**. The procrastination process can only work reliably if it's sustained by an underlying belief. If you're telling yourself, consciously or not, that "I'm no good at starting new things" or "I'll never get through this chapter of the book", you help to fuel the belief that sustains the procrastination behavior.
+I do want to touch on item #4 of procrastination: **the belief**. The procrastination behavior can only work reliably if it's sustained by an underlying belief. If you're telling yourself, consciously or not, that "I'm no good at starting new things" or "I'll never get through this chapter of the book", you help to fuel the belief that sustains the behavior.
 
 There are a few simple but effective techniques to help you combat procrastination:
 
@@ -49,11 +49,11 @@ There are a few simple but effective techniques to help you combat procrastinati
 
 ## Memory
 
-There are two main types of memory: working memory and long term memory. You can think of working memory as slots that store things you can recall immediately. We only have around four of these slots in our brain. Long term memory is similar to a warehouse of your brain where you store past events, concepts and skills. Unlike working memory, the capacity of long term memory is immense; there doesn't seem to be a fixed limit for our long term memory.
+There are two main types of memory: working memory and long term memory. You can think of working memory as slots that store things you can recall immediately. We only have around four of these slots in our brain. On the other hand, long term memory is similar to a warehouse of your brain where you store past events, concepts and skills. Unlike working memory, the capacity of long term memory is immense; there doesn't seem to be a fixed limit for our long term memory.
 
-The tricky part about long term memory is that we do not get to choose what goes into your long term memory. In fact, I see learning as little more than an elaborate process to conceptualize and store some useful information in the long term memory.
+The tricky part about long term memory is that we do not get to choose what goes into your long term memory. Your brain selects what to put into your long term memory automatically, we only have limited control over this process. Personally, I see learning as little more than an elaborate process to conceptualize and store some useful information in the long term memory.
 
-Your memory, just like your brain, is a living thing. New information in your memory must be used and recalled or it will fade away. Old information does not stay still, but it's being continuously re-evaluated and even possibly [rewritten](http://www.northwestern.edu/newscenter/stories/2014/02/how-your-memory-rewrites-the-past.html) by your brain!
+Your memory, just like your brain, is a living thing. Newly retained information must be used and recalled or it will fade away. Old information does not stay still, but it's being continuously re-evaluated and even possibly [rewritten](http://www.northwestern.edu/newscenter/stories/2014/02/how-your-memory-rewrites-the-past.html) by your brain!
 
 In order to effectively store the things you learn into long term memory, you can try some of the following techniques:
 
@@ -65,4 +65,4 @@ In order to effectively store the things you learn into long term memory, you ca
 
 ### Learning to learn
 
-Learning is hard; *effective* learning is probably the most rewarding skill you might have in your repertoire. I might already have had some vague notions about the concepts and techniques before taking the Coursera [course](https://class.coursera.org/learning-003). But having them presented in such a clear and concise way really helped to put everything into perspective. Many thanks to Dr. Barbara Oakley and Dr. Terrence Sejnowski for putting up this small but useful missing manual for the brain.
+Learning is hard; *effective* learning is probably the most rewarding skill you might have in your repertoire. I might already have had some vague notions about the concepts and techniques before taking the Coursera [course](https://class.coursera.org/learning-003). But having them presented in such a clear and concise way really helped to put everything into perspective. Many thanks to Dr. Barbara Oakley and Dr. Terrence Sejnowski for putting up this small but tremendously useful missing manual for the brain.
