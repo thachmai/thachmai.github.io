@@ -3,9 +3,7 @@ layout: post
 title: Learning Tips
 ---
 
-I recently took a short online course on Coursera: [Learning how to learn](https://www.coursera.org/course/learning). The roughly 20 hours I put into this course might well be the best investment of my time to date. I now understand better how our brain works. In addition, the course also taught me a bunch of useful techniques to learn more effectively.
-
-In this post, I'll summarize three concepts that have changed my way of thinking about our brain.
+I recently took a short online course on Coursera: [Learning how to learn](https://www.coursera.org/course/learning). The roughly 20 hours I put into this course might well be the best investment of my time to date. In this post, I'll present three concepts that have reshaped my way of thinking about our brain.
 
 
 ## Focused and diffuse thinking modes
@@ -14,9 +12,9 @@ The focused thinking mode should not be a stranger to anyone. When someone says 
 
 The focused thinkind mode helps us examine the problems with the tools we know best: critical thinking and analysis, logical reasoning and what have you. The focused mode works well for the problems that we know how to solve, e.g. problems that don't necessarily present a learning opportunity.
 
-In the [course](https://www.coursera.org/course/learning), Dr. Oakley suggests that there's another mode of thinking: the diffuse mode. You enter this mode of thinking when you relax and let your mind wander freely.
+In the [course](https://www.coursera.org/course/learning), Dr. Oakley suggests that there's another mode of thinking: the diffuse mode. You enter this mode of thinking when you relax and let your mind wander without constraints.
 
-In this diffuse mode of thinking, your mind broadens its horizon and taps into the full power of your memory. This mode of thinking is much less disciplined but not less powerful than the focused mode. Personally, my more creative solutions to tough programming problems often come unexpected; such as after a good rest, or a while walking and thinking about the problem absent-mindedly. I can now more accurately attribute this phenomenon as the result of the diffuse thining mode.
+In this diffuse mode of thinking, your mind broadens its horizon and taps into the full power of your memory. This mode of thinking is less disciplined, but powerful nevertheless. Personally, my more creative solutions to tough programming problems often arise from the diffuse thinking mode; such as after a good rest, or a while walking and thinking about the problem absent-mindedly.
 
 The trick to better problem solving is a good balance between the two modes of thinking. Day dreaming all the time without a good grasp of the problem usually doesn't lead anywhere. On the contrary, doggedly trying to solve a problem only in the focused mode does not utilise all the capabilities of your brain. Try to alternate between the two modes and find a method that works for you.
 
