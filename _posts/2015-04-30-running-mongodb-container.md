@@ -5,7 +5,7 @@ title: Running MongoDB as a Docker container
 
 A main strength of [MongoDB](https://www.mongodb.org/) is arguably its ease-of-use. You can complete its installation and have your first database up-and-running in minutes. 
 
-With [docker](https://www.docker.com/), this process can become even easier. In this post, I'll demonstrate how to install and create your MongoDB database in just a few simple commands. 
+With [docker](https://www.docker.com/), this process can become even easier. In this post, we'll install and create a MongoDB database in a docker container in just a few simple commands. 
 
 All you need to get started is an [installation](https://docs.docker.com/installation/#installation) of docker. The commands in this post assume that you're running Ubuntu.
 
@@ -18,9 +18,9 @@ mkdir ~/data
 sudo docker run -d -p 27017:27017 -v ~/data:/data/db mongo
 ```
 
-Don't be intimidated by the parameters of the command. You'll get used to it after playing around with docker.
+Don't be intimidated by the parameters of the command. You'll get used to it after [playing](https://docs.docker.com/userguide/dockervolumes/) [around](http://docs.docker.com/userguide/usingdocker/) with docker.
 
-At this point, you should have a MongoDB instance listening on port 27017. Its data is stored in `~/data` directory.
+At this point, you should have a MongoDB instance listening on port 27017. Its data is stored in `~/data` directory of the docker host.
 
 Next, let's populate the fresh database with some data.
 
@@ -70,3 +70,11 @@ To stop our runnings MongoDB queries, you run `sudo docker ps` to see the list o
 
 Alternatively, you can also execute `sudo docker stop $(sudo docker ps -q)` as a shortcut to stop *all* running containers.
 
+
+# Conclusion
+
+You might rightfully ask what the advantage of doing all this is. After all, `apt-get install` would take roughly the same amount of time and effort.
+
+For me, running a MongoDB as a container makes the process of automation simpler. We can now think of an instance of MongoDB as a contract, you give it a data volume, the container in turn exposes a TCP port for you to connect to.
+
+The real advantage of 'dockerizing' your MongoDB becomes more apparent once we get to [container linking](https://docs.docker.com/userguide/dockerlinks/) and [orchestration](http://kubernetes.io/); some more advanced topics that I hope to cover in a future post.
