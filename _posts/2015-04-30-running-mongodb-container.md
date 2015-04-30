@@ -75,6 +75,6 @@ Alternatively, you can also execute `sudo docker stop $(sudo docker ps -q)` as a
 
 You might rightfully ask what the advantage of doing all this is. After all, `apt-get install` would take roughly the same amount of time and effort.
 
-For me, running a MongoDB as a container makes the process of automation simpler. We can now think of an instance of MongoDB as a contract, you give it a data volume, the container in turn exposes a TCP port for you to connect to.
+For me, running a MongoDB as a container makes the process of automation simpler. We can now think of an instance of MongoDB as a contract, you give it a data volume, the container in turn exposes a TCP port for you to connect to. Should you need to change MongoDB settings or perform administrative tasks, it's easy enough to create your own MongoDB from the [official image](https://github.com/docker-library/mongo) and freely tweak it. For the consumers of your MongoDB installation, it's transparent.
 
 The real advantage of 'dockerizing' your MongoDB becomes more apparent once we get to [container linking](https://docs.docker.com/userguide/dockerlinks/) and [orchestration](http://kubernetes.io/); some more advanced topics that I hope to cover in a future post.
