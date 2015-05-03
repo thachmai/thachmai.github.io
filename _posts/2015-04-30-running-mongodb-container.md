@@ -18,11 +18,9 @@ mkdir ~/data
 sudo docker run -d -p 27017:27017 -v ~/data:/data/db mongo
 ```
 
-Don't be intimidated by the parameters of the command. You'll get used to it after [playing](https://docs.docker.com/userguide/dockervolumes/) [around](http://docs.docker.com/userguide/usingdocker/) with docker.
+I'll explain the syntax of the `docker run` command in a bit. At this point, you should have a MongoDB instance listening on port 27017. Its data is stored in `~/data` directory of the docker host.
 
-At this point, you should have a MongoDB instance listening on port 27017. Its data is stored in `~/data` directory of the docker host.
-
-Next, let's populate the fresh database with some data.
+Now, let's populate the fresh database with some data.
 
 # Connecting to your MongoDB container
 ```bash
@@ -70,11 +68,11 @@ To stop our runnings MongoDB queries, you run `sudo docker ps` to see the list o
 
 Alternatively, you can also execute `sudo docker stop $(sudo docker ps -q)` as a shortcut to stop *all* running containers.
 
+# DOCKER RUN command syntax
+The `docker run -d -p 27017:27107 -v ~/data:/data/db mongo` does 3 main things:
 
-# Conclusion
+* `-d` tells docker to run the container as a daemon, which is the mode that'll you want to use for server containers.
+* `-p 27017:27107` maps the port 27017 of the container to the port 27017 of the host. The syntax is `-p HOST_PORT:CONTAINER_PORT`. 
+* `-v ~/data:/data/db` maps the /data/db directory of the container to the ~/data directory on the host. This is called a [data volume](https://docs.docker.com/userguide/dockervolumes/), the principal mechanism to import and export data with your docker container.
 
-You might rightfully ask what the advantage of doing all this is. After all, `apt-get install` would take roughly the same amount of time and effort.
-
-For me, running a MongoDB as a container makes the process of automation simpler. We can now think of an instance of MongoDB as a contract, you give it a data volume, the container in turn exposes a TCP port for you to connect to. Should you need to change MongoDB settings or perform administrative tasks, it's easy enough to create your own MongoDB from the [official image](https://github.com/docker-library/mongo) and freely tweak it. For the consumers of your MongoDB installation, it's transparent.
-
-The real advantage of 'dockerizing' your MongoDB becomes more apparent once we get to [container linking](https://docs.docker.com/userguide/dockerlinks/) and [orchestration](http://kubernetes.io/); some more advanced topics that I hope to cover in a future post.
+How do you know which port(s) the container expose and which directory the container uses to store data? What I did was simply reading the [Dockerfile](https://github.com/docker-library/mongo/blob/c9a1b066a0f35f679c2f8e1854a21e025867d938/3.0/Dockerfile). Look for the `VOLUME` command to know what directory the container uses for its data. The `EXPOSE` command tells you which network port(s) the container listens on.
