@@ -1,0 +1,140 @@
+<!doctype html>
+
+<html>
+<head>
+    <title>Docker Introduction</title>
+    <style>
+body {
+    color: white;
+    background: #303030;
+}
+
+section {
+    padding: 1em;
+    padding-top: 300px;
+    font-size: 30px;
+    background: #303030;
+}
+
+pre,code,a {
+    color: #E65100;
+    text-decoration: none;
+}
+
+img.float {
+    position: static;
+    top: 10px;
+    left: 10px;
+}
+    </style>
+</head>
+<body>
+    <section>
+        <h1>A brief introduction</h1>
+        <!--
+        <ul>
+            <li></li>
+        </ul>
+        -->
+        Thach MAI, full stack dev: <a href="http://www.thachmai.info">www.thachmai.info</a>.<br/>
+        Introduction to Docker: optimise for the big picture rather than the specifics.<br/>
+        All examples require only Docker + internet.<br/>
+    </section>
+
+    <section>
+        <h1>Container vs VM</h1>
+        VM simulates a complete computer: OS, lots of hardware options.<br/>
+        Container runs in the same OS as the host as an isolated process (Linux kernel only).<br/>
+        Container has much less things to manage, with a uniform admin console.<br/>
+    </section>
+
+    <section>
+        <h1>What is a container?</h1>
+        - Streams: stdin and stdout.<br/>
+        - Network: IP and ports.<br/>
+        - File system: directories and files.<br/>
+    </section>
+
+    <section>
+        <h1>Running a container</h1>
+        <pre>docker run hello-world</pre>
+        - How does Docker find the <code>hello-world</code> container? Machine local cache, then a registry (private or Docker Hub).<br/>
+        - A running container has a name + hash.
+    </section>
+
+    <section>
+        <h1>stdin & stdout (1)</h1>
+        <pre>docker run hello-world</pre>
+        - stdout is your terminal stdout.<br/>
+        - stdin is not connected.<br/>
+    </section>
+
+    <section>
+        <h1>stdin & stdout (2)</h1>
+        <pre>docker run -d hello-world</pre>
+        - stdout is directed to a log.<br/>
+        - Run <code>docker ps -a</code> to show the list of containers.<br/>
+        - Run <code>docker logs &lt;name&gt;</code> to see the output.<br/>
+    </section>
+
+    <section>
+        <h1>stdin & stdout (3)</h1>
+        <pre>docker run -it ubuntu</pre>
+        - stdout is your terminal stdout.<br/>
+        - stdin is your terminal stdin.<br/>
+    </section>
+
+    <section>
+        <h1>Network Mapping</h1>
+        <pre>docker run -p 27017:27017 -d mongo</pre>
+        - This command maps the host's port 27017 to the container's port 27017.<br/>
+        - Now you can connect to the container with <code>mongo localhost:27017</code>.<br/>
+    </section>
+
+    <section>
+        <h1>Union File System (1)</h1>
+        - An onion-like file system: layers.<br/>
+        - Starts with a core: an base image.<br/>
+        - Outer layers hide inner layers.<br/>
+        - Each layer is <b>immutable</b> and identified by its hash (just like <code>git</code>).
+    </section>
+
+    <section>
+        <h1>Union File System (2)</h1>
+        - To recompose a container image, you just need to retrieve all of its layers.<br/>
+        - Docker Hub is simply an online host of these layers + admin stuff.<br/>
+    </section>
+
+    <section>
+        <h1>Union File System (3)</h1>
+        - When you're running a container, its file system is updated.<br/>
+        - These changes are stored in an outer layer that persists on your host.<br/>
+        - Docker doesn't delete the layers automatically when container stops.<br/>
+        - Use volume mapping if you want to easily extract data from container.<br/>
+        <pre>docker run -d -p 27017:27017 <b>-v /data/db:/data/db</b> mongo</pre>
+    </section>
+
+    <section>
+        <h1>How is Docker today?</h1>
+        - Container is an awesome idea that will change how we think about software deployment.<br/>
+        - Is Docker production ready at version 1.7? I'm not sure.<br/>
+        &nbsp;&nbsp;* Lots of bugs, slow turn-around.<br/>
+        &nbsp;&nbsp;* Security issues.<br/>
+        &nbsp;&nbsp;* Emphasis seems to be on new toys (Compose, Swarm) than stabilization.<br/>
+        - If Docker doesn't work out, CoreOS or someone else will.
+    </section>
+
+    <section>
+        <h1>My strategy for adoption</h1>
+        - My personal strategy, I hope to hear yours.<br/>
+        - Get ready for containers, but don't commit all-in with Docker yet.<br/>
+        - Using Docker in production right now can significantly simplify your deployment process, but some (or a lot) of pain can be expected.<br/>
+    </section>
+
+    <script src="js/d3.min.js"></script>
+    <script src="js/stack.v1.js"></script>
+    <script>
+var slides = stack();
+    </script>
+</body>
+</html>
