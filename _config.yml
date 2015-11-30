@@ -1,7 +1,3 @@
-# Dependencies
-markdown:            redcarpet
-highlighter:         pygments
-
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
@@ -13,7 +9,7 @@ title:               'Thach Mai'
 tagline:             '// TODO: a witty tagline'
 description:         'Code, math and other stuff'
 url:                 http://www.thachmai.info
-baseurl:             /
+baseurl:             ''
 paginate:            5
 
 # About/contact
