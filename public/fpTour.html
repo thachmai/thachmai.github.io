@@ -1,0 +1,117 @@
+<!doctype html>
+
+<html>
+<head>
+    <title>Functional Programming - A Sightseeing Tour</title>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40873307-4', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+    <style>
+body {
+    color: white;
+    background: #303030;
+}
+
+section {
+    padding: 1em;
+    padding-top: 200px;
+    font-size: 33px;
+    background: #303030;
+}
+section.full {
+    padding-top: 1em;
+    font-size: 23px;
+}
+
+pre,code,a {
+    color: #E65100;
+    text-decoration: none;
+}
+
+img.float {
+    position: static;
+    top: 10px;
+    left: 10px;
+}
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Functional Programming - A Sightseeing Tour</h1>
+        Thach MAI<br/>
+        Slide location: <a href="https://www.thachmai.info/2016/11/26/fp-tour">https://www.thachmai.info/2016/05/10/fp-tour</a>
+
+    </section>
+
+    <section>
+        <h1>The Current King: Object-Oriented, Imperative paradigm</h1>
+        Java (1996) was the first popular "pure OO" language<br/>
+        The main focus is the object: <b>data + state + method</b><br/>
+        Program execution is often viewed as a sequence of steps<br/> 
+        The "current step" jumps between object boundary<br/>
+        <br/>
+        Techniques: design patterns, SOLID, principle of least knowledge<br/>
+    </section>
+
+    <section>
+        <h1>The Landscape Is Changing</h1>
+        C# introduced LINQ (2007)<br/>
+        Scalar (2004) and Clojure (2007) got a foothold in the JVM world<br/>
+        Go-lang did away with object altogether (2009)<br/>
+        Java introduced "lambda" in Java 8 (2014)<br/>
+        Javascript formalised the Promise specification (2015)<br/>
+        Perl 6 (2015) can do functional programming<br/>
+        <br/>
+        Ideas from Functional Programming (FP) are affecting us in substantial ways<br/>
+    </section>
+
+    <section>
+        <h1>A Brief History of FP</h1>
+        An ancient idea, started with lambda calculus by Alonzo Church in the 1930s<br/>
+        FP stayed as a niche in mostly in acamedia until recently<br/>
+        FP is still a niche today, but is arguably a mainstream niche<br/>
+        For some, FP might seem intimidating due to its mathy roots<br/>
+    </section>
+
+    <section>
+        <h1>What is the big deal about FP?</h1>
+        Programs are made of functions<br/>
+        Data "flows" through the program guided by functions<br/>
+        Functions are not your typical OO methods. FP has a lot of neat tricks with its functions<br/>
+        Notably, FP allows you to easily <b>compose</b> new functions based on existing ones<br/>
+        <br/>
+        Typical FP programs have less variables<br/>
+        FP programs are often smaller in size than those of other paradigms<br/>
+        FP programs can look cryptic at first, but the rules are simple<br/>
+    </section>
+
+    <section>
+        <h1>Examples</h1>
+        <a href="https://github.com/thachmai/fpTour/">https://github.com/thachmai/fpTour</a><br/>
+        In this example, let's build a web page that retrieves information from Github API and shows it in a table format.<br/>
+    </section>
+
+    <section>
+        <h1>FP Today</h1>
+        Functional Programming is already here. It's affecting many design choices from popular languages.<br/>
+        Learning directly the FP paradigm can help you to simplify the concepts.<br/>
+        FP is rich in useful techniques<br/>
+        <br/>
+        Learning a new paradigm takes time. But for me, the FP journey has been most rewarding.<br/>
+        I hope that you'll give it a try.<br/>
+    </section>
+
+    <script src="js/d3.min.js"></script>
+    <script src="js/stack.v1.js"></script>
+    <script>
+var slides = stack();
+    </script>
+</body>
+</html>
