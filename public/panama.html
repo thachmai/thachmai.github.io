@@ -1,0 +1,87 @@
+<!doctype html>
+
+<html>
+<head>
+    <title>Data Vizualization</title>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-40873307-4', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+    <style>
+body {
+    color: white;
+    background: #303030;
+}
+
+section {
+    padding: 1em;
+    padding-top: 200px;
+    font-size: 33px;
+    background: #303030;
+}
+section.full {
+    padding-top: 1em;
+    font-size: 23px;
+}
+
+pre,code,a {
+    color: #E65100;
+    text-decoration: none;
+}
+
+img.float {
+    position: static;
+    top: 10px;
+    left: 10px;
+}
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Data Vizualization Example</h1>
+        Thach MAI<br/>
+        Slide location: <a href="https://www.thachmai.info/2016/01/05/dataviz-example">https://www.thachmai.info/2016/01/05/dataviz-example</a>
+    </section>
+
+    <section>
+        <h1>Why Data Viz?</h1>
+        We're not naturally equipped to deal with numbers<br/>
+        Data vizualization allows us to "see" the data using existing facilities: shape, area, volume, color, orientation, etc<br/> 
+        Data vizualization is a communication technique, not an artistic expressions<br/>
+    </section>
+
+    <section>
+        <h1>Data Viz today</h1>
+        D3.js dominates the landscape (for good reasons ?)<br/>
+        Mosly charts - Still rare to see interactions and transitions<br/>
+        Effective data vizualization requires an aggregation of various techniques: web dev, 2D/3D graphics, data analysis<br/>
+        Opportunities?<br/>
+    </section>
+
+    <section>
+        <h1>Wanna try?</h1>
+        I recommend starting with D3.js<br/>
+        Play around with the [examples](https://bl.ocks.org/mbostock)<br/>
+        D3.js is mostly functional programming, so familiarity with the paradigm helps<br/>
+        Understand the data join ENTER UPDATE EXIT contract!<br/>
+    </section>
+
+    <section>
+        <h1>What else?</h1>
+        Data scrapping helps. I use Clojure with Enlive library<br/>
+        Understanding statistics allows you to tell a story with data<br/>
+        Avoid misleading your readers<br/>
+    </section>
+    <script src="js/d3.min.js"></script>
+    <script src="js/stack.v1.js"></script>
+    <script>
+var slides = stack();
+    </script>
+</body>
+</html>
