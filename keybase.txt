@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/thachmai
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://thachmai.info
+  * I am thachmai (https://keybase.io/thachmai) on keybase.
+  * I have a public key with fingerprint 496A B85E A531 0D50 1554  FE7D 7F4F 0F26 2C03 7D19
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "010105babb27cebcf64e7e83c29c50259515d281679229238f8a22c4f300dc6758950a",
+            "fingerprint": "496ab85ea5310d501554fe7d7f4f0f262c037d19",
+            "host": "keybase.io",
+            "key_id": "7f4f0f262c037d19",
+            "kid": "010105babb27cebcf64e7e83c29c50259515d281679229238f8a22c4f300dc6758950a",
+            "uid": "43f725d60c3723323c93364f27186d19",
+            "username": "thachmai"
+        },
+        "service": {
+            "hostname": "thachmai.info",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1484572960,
+    "expire_in": 157680000,
+    "prev": "6124df482832558af6d1a022d3d58365e7a24602ecdbae60bb44219eeb0aacd1",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.62
+Comment: https://keybase.io/crypto
+
+yMNDAnicrVJ7UFRVHF6WR7DDQ2MggSK8kjMKMvee+97Qwkc6KGUPhh7kdh/nLpfH
+7nL3LrQoQRngUAmaOYjUlDJqmmaJlcWIFEKEPIQZF9KEIeSREoEFSch0L9U/TX92
+zh9nzu983/f7vt+cpiBvg8mr6ImQ5fHehRFebY1VLsOzO1pjtiO8XXQj5u1IFlw4
+YLYInaolSxYRM4Ji2iZ5jucBLUBekCgC0pDBBcAKJApIlsRIETAYRbMAsABnJIYD
+QCAkHEVFgaJJhiVRDolHJNlmhYpDkW2qJkuwFMczJORIHENFEsVIkpAgLdISIaES
+oICA4rSIsRoxw+7UGZo5nnPCBNmu1bSLZcHef+D/Z9+uBTkCl2hAihQq4DTAcYAL
+LI5ThARojKH+6utyQsXG5UANrWZwQkYOJyOF8YhWzZMFqA9WT/IvRIJsk/RADsWu
+2gV7tvaUoaoOp1mnqm6Hjs2HvOVvFQsv20RtkBojDypO2W5DzJiGFFRZl8UIhiBp
+wFJoPAJfdsgKtMg6gqQpBtWW3gfmaZIUBghRIhjA4IAkGU7SMnAoACIukgxOkZDm
+AEGhAAoiz0EK5XmCABgLIY9ynCBiiJ4r12ZHzIRmk7Nqkk7ZauNUlwKRwq8b030M
+XiaDn69R/2AGU8Cif76dO2qRobzoTMXjgT/EMin+r+csHnfNVvcXu3M/7Gjhaoew
+mKdPQGt9TknluMeWLM63fpTk1d7ou7pz75Lu+Y7F4rlbBnyoq+xs1djYoerBdRv2
+BJjcAxNHZmOC1ZHJ/b8Oh3wWZ/wqdLbH2Bj1R1Cs8eRwSXLn22sjUtPu/pj53YGe
+sFp/7/YCr8ShoZB0T1tGDey9dKUtLbHKlLb0YnYm+fNvA31ze/t2bZobzIvIUo6M
+PL/m1Perl9R0B06Vsak7ahrUhK6bSfi3pVsm59Wr4Snndj7Q03X9GaK2pby4wDub
+WT/TfOKDbSPNg2F+3u/WJxU/fEw5PRo3F3zfWy8Mm2Xjc8jotPMn5WYKXR355kv4
+2l27a1rY5k0+dV9OXbgYe+2LEp/2o/3HVeTVVsun99ZuPtV3qCCy7o2Qo47KjxNC
+/fNX3J5Zui98s/t26P1hddvqKq/391aXjg1suXz5Sr7HU6bIkQdK4975XHilt8J4
+x6/WNPIY/CRqfekjq5av3Dc4uvLFZhgdfyNuhr2H/sU/87XO+mMTgwOedU/tvtX5
+0J2rZ7lVsCJ1a1NLXHqMx1X4fmDnRp9LSIepO3qmfP8N3+KTZ8YLzl87GCKvyB0f
+ttYFVyX2Rj+a05A+7fD5fTqicDK1Ifnw1thv2qbe21ng18uwzJPjd4vIB0+HH1x2
+YSJyrjrgeNOew2sCzicHFf0JW/vBrQ==
+=wWWd
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/thachmai
+
+==================================================================
+
